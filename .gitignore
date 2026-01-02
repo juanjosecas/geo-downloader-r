@@ -1,0 +1,26 @@
+# R specific
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# Data directories (users should not commit large datasets)
+geo_datasets/
+quality_reports/
+
+# Temporary files
+*.rds
+*.RDS
+*.csv~
+*.txt~
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
